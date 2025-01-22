@@ -1,0 +1,2 @@
+# scratch
+introduction to CS
