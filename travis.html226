@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FORM</title>    
+</head>  
+<style>
+*h1{
+    background-color:
+<body>dark blue;
+}
+</style
+   <center> <h1>Land Of Boxes Order Form</h1></center>
+   <label for="fullname">fullname</label>
+    <input type="waloobrody"placeholder="waloobrody"><br></br>
+    <label for="Email">Email:</label>
+    <input type="w.brody@widget-sales.com"placeholder="w.brody@widget-sales.com"><br></br>
+    <label for="Address">Address</label>
+>    <input type="Address"placeholder="162 main road rendebosch cape town"><br></br>
+    <label for="Postalcode">Postalcode:</label>
+    <input type="7700"placeholder="7700"><br></br>
+
+    <table border="10">
+    <tr>
+ <th>Product</th>
+ <th>Part Number</th>
+ <th>Quantity</th>
+ <th>Unit Price</th>
+ <th>Subtotal</th>
+</tr>
+  
+<tr>
+    <td>EconoBox</td>
+    <td>LB 100</td>
+    <td>3</td>
+    <td>R5</td>
+    <tD>R5</td>
+</tr>
+
+
+<tr>
+    <td>Standard Box</td>
+    <td>LB 200</td>
+    <td>4</td>
+    <td>R10</td>
+    <tD>R10</td>
+</tr>
+
+<tr>
+    <td>Primium Box/TD></td>
+    <td>LB 300</td>
+    <td>1</td>
+    <td>R15</td>
+    <tD>R15</td>
+</tr>
+
+<tr>
+    <td>Deluxe Box/TD></td>
+    <td>LB 400</td>
+    <td>0</td>
+    <td>R20</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Super Deluxe Box/TD</td>
+    <td>LB 500</td>
+    <td>1</td>
+    <td>R30</td>
+    <tD>R30</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+    <td>Total</td>
+    <td>R100</td>
+</tr>
+   </table>
+   <h1>Credit Card Details</h1>
+   
+   <input type="radio"placeholder="Mastercard">master card<br>
+   <input type="radio"placeholder="visa">visa</br>
+   <input type="radio"placeholder="American express">American express</br>
+   <input type="radio"placeholder="Dinners club">Dinners club</br>
+<br><br><br>
+<button>Send order</button>
+<button>Clear form</button>
+</body> 
+</html>
