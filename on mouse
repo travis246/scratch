@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OnMouseOver</title>
+<style>
+body {
+  background-color:yellowgreen;
+  transition: background-color 0.5s ease;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color:blue;
+  border: 1px dotted darkred;
+  padding: 10px;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 15px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <p>iam learining programming</p>
+</div>
+
+<script>
+  const body = document.querySelector('body');
+  const box = document.querySelector('.box');
+
+  box.addEventListener('mouseover', () => {
+    body.style.backgroundColor = 'lightblue';
+  });
+
+  box.addEventListener('mouseout', () => {
+    body.style.backgroundColor = 'white';
+  });
+</script>
+
+</body>
+</html>
